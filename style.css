@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.head{
+    text-align: center;
+}
+
+.pads{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+  
+
+}
+
+.pad1{
+    background-color:yellowgreen ;
+}
+
+.pad2{
+    background-color: red;
+}
+
+.pad3{
+    background-color: gold;
+}
+
+.pad4{
+    background-color: slateblue;
+}
+
+.pad5{
+    background-color: skyblue;
+}
